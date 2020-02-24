@@ -355,7 +355,7 @@ settings:
   image_count_page_node_block_list: 0
   image_count_page_node_revision: 0
   image_count_page_node_token: 0
-  png_logo: 0
+  png_logo: 1
   breadcrumb_home_alone: 1
   breadcrumb_title: 0
   page_wide_messages: ''

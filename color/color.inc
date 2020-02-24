@@ -124,7 +124,6 @@ $info = [
 
   // Files to copy.
   'copy' => [
-    'logo.svg',
     'logo.png',
   ],
 
