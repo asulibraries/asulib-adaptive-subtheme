@@ -403,7 +403,7 @@ custom_css_file:
     theme:
       styles/css/custom.css: { weight: 1000 }
 
-# Custom libraries for ASULIB
+# Custom libraries for asulib
 headroom:
   version: 8.x-3.0
   js:

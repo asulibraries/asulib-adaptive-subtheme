@@ -1,6 +1,6 @@
-name: ASU Libraries
+name: ASU Library
 type: theme
-base theme: at_core
+'base theme': at_core
 'base theme original': 8.x-3.1
 'subtheme type': adaptive_subtheme
 layout: page-layout
@@ -30,12 +30,6 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 tags: sub-theme
-features:
-  - logo
-  - favicon
-  - node_user_picture
-  - comment_user_picture
-  - comment_user_verification
 libraries-extend:
   quickedit/quickedit:
     - asulib/quickedit
