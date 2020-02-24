@@ -36,5 +36,18 @@ features:
   - node_user_picture
   - comment_user_picture
   - comment_user_verification
-libraries:
-  - asulib/global-styling
+libraries-extend:
+  quickedit/quickedit:
+    - carapace/quickedit
+stylesheets-remove:
+  - '@stable/css/node/node.preview.css'
+  - '@stable/css/node/node.module.css'
+  - '@stable/css/views/views.module.css'
+  - '@stable/css/system/components/tablesort.module.css'
+  - '@classy/css/components/file.css'
+features:
+  - logo
+  - favicon
+  - node_user_picture
+  - comment_user_picture
+  - comment_user_verification
