@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - carapace
-id: carapace_messages
-theme: carapace
+    - asulib
+id: asulib_messages
+theme: asulib
 region: highlighted
 weight: -11
 provider: null

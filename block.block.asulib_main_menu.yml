@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - carapace
-id: carapace_main_menu
-theme: carapace
+    - asulib
+id: asulib_main_menu
+theme: asulib
 region: navbar
 weight: 0
 provider: null

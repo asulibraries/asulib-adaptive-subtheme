@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - carapace
-id: carapace_account_menu
-theme: carapace
+    - asulib
+id: asulib_account_menu
+theme: asulib
 region: leaderboard
 weight: -10
 provider: null

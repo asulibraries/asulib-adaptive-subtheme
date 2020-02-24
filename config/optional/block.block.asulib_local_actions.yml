@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - carapace
-id: carapace_local_actions
-theme: carapace
+    - asulib
+id: asulib_local_actions
+theme: asulib
 region: content
 weight: -6
 provider: null

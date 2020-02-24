@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - carapace
-id: carapace_footer
-theme: carapace
+    - asulib
+id: asulib_footer
+theme: asulib
 region: footer_first
 weight: 0
 provider: null

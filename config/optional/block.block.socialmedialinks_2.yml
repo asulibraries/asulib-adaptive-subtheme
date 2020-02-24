@@ -4,9 +4,9 @@ dependencies:
   module:
     - social_media_links
   theme:
-    - carapace
+    - asulib
 id: socialmedialinks_2
-theme: carapace
+theme: asulib
 region: leaderboard
 weight: -11
 provider: null

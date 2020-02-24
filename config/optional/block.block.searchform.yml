@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - carapace
+    - asulib
 id: searchform
-theme: carapace
+theme: asulib
 region: navbar
 weight: 0
 provider: null

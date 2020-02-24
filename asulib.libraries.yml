@@ -403,7 +403,7 @@ custom_css_file:
     theme:
       styles/css/custom.css: { weight: 1000 }
 
-# Custom libraries for Carapace
+# Custom libraries for ASULIB
 headroom:
   version: 8.x-3.0
   js:

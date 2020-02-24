@@ -1,6 +1,6 @@
 @media all and (max-width: 45em) {
-  #block-carapace-search,
-  .block-plugin-id--carapace-search {
+  #block-asulib-search,
+  .block-plugin-id--asulib-search {
     display: none;
 }
   #block-searchform,

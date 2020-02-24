@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Lists available color schemes for Carapace.
+ * Lists available color schemes for ASULIB.
  */
 
 $info = [
@@ -34,7 +34,7 @@ $info = [
   // Schemes.
   'schemes' => [
     'default' => [
-      'title' => t('carapace (default)'),
+      'title' => t('asulib (default)'),
       'colors' => [
         'base'                              => '#140404',
         'text'                              => '#5d5d5d',

@@ -38,7 +38,7 @@ features:
   - comment_user_verification
 libraries-extend:
   quickedit/quickedit:
-    - carapace/quickedit
+    - asulib/quickedit
 stylesheets-remove:
   - '@stable/css/node/node.preview.css'
   - '@stable/css/node/node.module.css'
