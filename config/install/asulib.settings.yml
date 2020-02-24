@@ -14,7 +14,7 @@ settings:
   enable_markup_overrides: 1
   enable_devel: 0
   enable_legacy_browsers: 0
-  skip_link_target: block-carapace-content
+  skip_link_target: block-asulib-content
   suggestions:
     page: page
   layout_method: 0
@@ -53,7 +53,7 @@ settings:
   page_mobile_subfeatures: ''
   page_mobile_footer: ''
   enable_backups: 0
-  responsive_menu_block: carapace_main_menu
+  responsive_menu_block: asulib_main_menu
   responsive_menu_default_style: slidedown
   responsive_menu_responsive_style: dropmenu
   responsive_menu_breakpoint_group: at_core.simple
@@ -65,7 +65,7 @@ settings:
   apple_touch_icon_path_ipad_retina_3x: images/touch-icons/Icon-60-3x.png
   apple_touch_icon_path_chrome_android: images/touch-icons/Icon-192x192.png
   apple_touch_icon_precomposed: 0
-  generated_files_path: themes/carapace/styles/css/generated
+  generated_files_path: themes/asulib/styles/css/generated
   extensions_form_open: 1
   layouts_form_open: 1
   image_alignment_article_node_full: center
@@ -428,20 +428,20 @@ settings:
   page_classes_region_subfeatures_third: ''
   page_classes_region_subfeatures_fourth: ''
   page_classes_region_footer: ''
-  block_classes_carapace_account_menu: ''
-  block_classes_carapace_branding: ''
-  block_classes_carapace_breadcrumbs: ''
-  block_classes_carapace_content: ''
-  block_classes_carapace_footer: ''
-  block_classes_carapace_help: ''
-  block_classes_carapace_local_actions: ''
-  block_classes_carapace_local_tasks: ''
-  block_classes_carapace_login: ''
-  block_classes_carapace_main_menu: ''
-  block_classes_carapace_messages: ''
-  block_classes_carapace_page_title: ''
-  block_classes_carapace_search: ''
-  block_classes_carapace_tools: ''
+  block_classes_asulib_account_menu: ''
+  block_classes_asulib_branding: ''
+  block_classes_asulib_breadcrumbs: ''
+  block_classes_asulib_content: ''
+  block_classes_asulib_footer: ''
+  block_classes_asulib_help: ''
+  block_classes_asulib_local_actions: ''
+  block_classes_asulib_local_tasks: ''
+  block_classes_asulib_login: ''
+  block_classes_asulib_main_menu: ''
+  block_classes_asulib_messages: ''
+  block_classes_asulib_page_title: ''
+  block_classes_asulib_search: ''
+  block_classes_asulib_tools: ''
   nodetype_classes_article: ''
   nodetype_classes_gallery: ''
   nodetype_classes_hero: ''
@@ -456,7 +456,7 @@ settings:
   shortcodes_rounded_corners_enable: 0
   shortcodes_menu_bullets_enable: 0
   shortcodes_animate_enable: 1
-  slideshow_0_slideshow_class: .carapace-slideshow-0
+  slideshow_0_slideshow_class: .asulib-slideshow-0
   block_classes_useraccountmenu: ''
   page_classes_row_wrapper_footercols: ''
   page_classes_row_container_footercols: ''
@@ -576,7 +576,7 @@ settings:
   image_captions_page_node_media_object: 0
   image_count_page_node_hero: 0
   image_count_page_node_media_object: 0
-  block_classes_carapaceslideshow0: ''
+  block_classes_asulibslideshow0: ''
   block_classes_views_block__frontpage_sections_block_1: ''
   image_alignment_article_node_spotlight: null
   image_captions_article_node_spotlight: 0
@@ -618,9 +618,9 @@ settings:
   slideshow_1_video: 0
   slideshow_1_prevtext: Previous
   slideshow_1_nexttext: Next
-  slideshow_1_slideshow_class: .carapace-slideshow-1
+  slideshow_1_slideshow_class: .asulib-slideshow-1
   slideshow_1_selector: '.slides > li'
-  block_classes_carapaceslideshow1carousel: ''
+  block_classes_asulibslideshow1carousel: ''
   block_classes_displayexamplenodeinablock: ''
   block_classes_views_block__content_recent_block_1: ''
   page_wide_leaderboard_weight: '0'
@@ -1394,34 +1394,34 @@ settings:
   image_alignment_spotlight_features_tabletisolate_paragraph_preview_right: '0'
   image_alignment_spotlight_features_tabletisolate_paragraph_preview_bottom: '0'
   image_alignment_spotlight_features_tabletisolate_paragraph_preview_left: '0'
-  mobile_block_show_bpwide_carapace_local_actions: 0
-  mobile_block_hide_bpwide_carapace_local_actions: 0
-  mobile_block_show_bpwide_carapace_local_tasks: 0
-  mobile_block_hide_bpwide_carapace_local_tasks: 0
-  mobile_block_show_bpwide_carapace_help: 0
-  mobile_block_hide_bpwide_carapace_help: 0
-  mobile_block_show_bpwide_carapace_search: 0
-  mobile_block_hide_bpwide_carapace_search: 0
-  mobile_block_show_bpwide_carapace_branding: 0
-  mobile_block_hide_bpwide_carapace_branding: 0
-  mobile_block_show_bpwide_carapace_breadcrumbs: 0
-  mobile_block_hide_bpwide_carapace_breadcrumbs: 0
-  mobile_block_show_bpwide_carapace_content: 0
-  mobile_block_hide_bpwide_carapace_content: 0
-  mobile_block_show_bpwide_carapace_messages: 0
-  mobile_block_hide_bpwide_carapace_messages: 0
-  mobile_block_show_bpwide_carapace_page_title: 0
-  mobile_block_hide_bpwide_carapace_page_title: 0
-  mobile_block_show_bpwide_carapace_account_menu: 0
-  mobile_block_hide_bpwide_carapace_account_menu: 0
-  mobile_block_show_bpwide_carapace_footer: 0
-  mobile_block_hide_bpwide_carapace_footer: 0
-  mobile_block_show_bpwide_carapace_main_menu: 0
-  mobile_block_hide_bpwide_carapace_main_menu: 0
+  mobile_block_show_bpwide_asulib_local_actions: 0
+  mobile_block_hide_bpwide_asulib_local_actions: 0
+  mobile_block_show_bpwide_asulib_local_tasks: 0
+  mobile_block_hide_bpwide_asulib_local_tasks: 0
+  mobile_block_show_bpwide_asulib_help: 0
+  mobile_block_hide_bpwide_asulib_help: 0
+  mobile_block_show_bpwide_asulib_search: 0
+  mobile_block_hide_bpwide_asulib_search: 0
+  mobile_block_show_bpwide_asulib_branding: 0
+  mobile_block_hide_bpwide_asulib_branding: 0
+  mobile_block_show_bpwide_asulib_breadcrumbs: 0
+  mobile_block_hide_bpwide_asulib_breadcrumbs: 0
+  mobile_block_show_bpwide_asulib_content: 0
+  mobile_block_hide_bpwide_asulib_content: 0
+  mobile_block_show_bpwide_asulib_messages: 0
+  mobile_block_hide_bpwide_asulib_messages: 0
+  mobile_block_show_bpwide_asulib_page_title: 0
+  mobile_block_hide_bpwide_asulib_page_title: 0
+  mobile_block_show_bpwide_asulib_account_menu: 0
+  mobile_block_hide_bpwide_asulib_account_menu: 0
+  mobile_block_show_bpwide_asulib_footer: 0
+  mobile_block_hide_bpwide_asulib_footer: 0
+  mobile_block_show_bpwide_asulib_main_menu: 0
+  mobile_block_hide_bpwide_asulib_main_menu: 0
   mobile_block_show_bpwide_socialmedialinks: 0
   mobile_block_hide_bpwide_socialmedialinks: 0
-  mobile_block_show_bpwide_carapaceslideshow0: 0
-  mobile_block_hide_bpwide_carapaceslideshow0: 0
+  mobile_block_show_bpwide_asulibslideshow0: 0
+  mobile_block_hide_bpwide_asulibslideshow0: 0
   mobile_block_show_bpwide_views_block__frontpage_sections_block_1_2: 0
   mobile_block_hide_bpwide_views_block__frontpage_sections_block_1_2: 0
   mobile_block_show_bpwide_views_block__frontpage_section_spotlight_block_2: 0
@@ -1432,8 +1432,8 @@ settings:
   mobile_block_hide_bpwide_spotlightandfeaturesfrontpage: 0
   mobile_block_show_bpwide_socialmedialinks_2: 0
   mobile_block_hide_bpwide_socialmedialinks_2: 0
-  mobile_block_show_bpwide_carapaceslideshow1carousel: 0
-  mobile_block_hide_bpwide_carapaceslideshow1carousel: 0
+  mobile_block_show_bpwide_asulibslideshow1carousel: 0
+  mobile_block_hide_bpwide_asulibslideshow1carousel: 0
   mobile_block_show_bpwide_views_block__content_recent_block_1: 0
   mobile_block_hide_bpwide_views_block__content_recent_block_1: 0
   mobile_block_show_bpwide_displayexamplenodeinablock: 0
@@ -1446,34 +1446,34 @@ settings:
   mobile_block_hide_bpwide_footerquote: 0
   mobile_block_show_bpwide_searchform: 0
   mobile_block_hide_bpwide_searchform: 1
-  mobile_block_show_bptablet-isolate_carapace_local_actions: 0
-  mobile_block_hide_bptablet-isolate_carapace_local_actions: 0
-  mobile_block_show_bptablet-isolate_carapace_local_tasks: 0
-  mobile_block_hide_bptablet-isolate_carapace_local_tasks: 0
-  mobile_block_show_bptablet-isolate_carapace_help: 0
-  mobile_block_hide_bptablet-isolate_carapace_help: 0
-  mobile_block_show_bptablet-isolate_carapace_search: 0
-  mobile_block_hide_bptablet-isolate_carapace_search: 0
-  mobile_block_show_bptablet-isolate_carapace_branding: 0
-  mobile_block_hide_bptablet-isolate_carapace_branding: 0
-  mobile_block_show_bptablet-isolate_carapace_breadcrumbs: 0
-  mobile_block_hide_bptablet-isolate_carapace_breadcrumbs: 0
-  mobile_block_show_bptablet-isolate_carapace_content: 0
-  mobile_block_hide_bptablet-isolate_carapace_content: 0
-  mobile_block_show_bptablet-isolate_carapace_messages: 0
-  mobile_block_hide_bptablet-isolate_carapace_messages: 0
-  mobile_block_show_bptablet-isolate_carapace_page_title: 0
-  mobile_block_hide_bptablet-isolate_carapace_page_title: 0
-  mobile_block_show_bptablet-isolate_carapace_account_menu: 0
-  mobile_block_hide_bptablet-isolate_carapace_account_menu: 0
-  mobile_block_show_bptablet-isolate_carapace_footer: 0
-  mobile_block_hide_bptablet-isolate_carapace_footer: 0
-  mobile_block_show_bptablet-isolate_carapace_main_menu: 0
-  mobile_block_hide_bptablet-isolate_carapace_main_menu: 0
+  mobile_block_show_bptablet-isolate_asulib_local_actions: 0
+  mobile_block_hide_bptablet-isolate_asulib_local_actions: 0
+  mobile_block_show_bptablet-isolate_asulib_local_tasks: 0
+  mobile_block_hide_bptablet-isolate_asulib_local_tasks: 0
+  mobile_block_show_bptablet-isolate_asulib_help: 0
+  mobile_block_hide_bptablet-isolate_asulib_help: 0
+  mobile_block_show_bptablet-isolate_asulib_search: 0
+  mobile_block_hide_bptablet-isolate_asulib_search: 0
+  mobile_block_show_bptablet-isolate_asulib_branding: 0
+  mobile_block_hide_bptablet-isolate_asulib_branding: 0
+  mobile_block_show_bptablet-isolate_asulib_breadcrumbs: 0
+  mobile_block_hide_bptablet-isolate_asulib_breadcrumbs: 0
+  mobile_block_show_bptablet-isolate_asulib_content: 0
+  mobile_block_hide_bptablet-isolate_asulib_content: 0
+  mobile_block_show_bptablet-isolate_asulib_messages: 0
+  mobile_block_hide_bptablet-isolate_asulib_messages: 0
+  mobile_block_show_bptablet-isolate_asulib_page_title: 0
+  mobile_block_hide_bptablet-isolate_asulib_page_title: 0
+  mobile_block_show_bptablet-isolate_asulib_account_menu: 0
+  mobile_block_hide_bptablet-isolate_asulib_account_menu: 0
+  mobile_block_show_bptablet-isolate_asulib_footer: 0
+  mobile_block_hide_bptablet-isolate_asulib_footer: 0
+  mobile_block_show_bptablet-isolate_asulib_main_menu: 0
+  mobile_block_hide_bptablet-isolate_asulib_main_menu: 0
   mobile_block_show_bptablet-isolate_socialmedialinks: 0
   mobile_block_hide_bptablet-isolate_socialmedialinks: 0
-  mobile_block_show_bptablet-isolate_carapaceslideshow0: 0
-  mobile_block_hide_bptablet-isolate_carapaceslideshow0: 0
+  mobile_block_show_bptablet-isolate_asulibslideshow0: 0
+  mobile_block_hide_bptablet-isolate_asulibslideshow0: 0
   mobile_block_show_bptablet-isolate_views_block__frontpage_sections_block_1_2: 0
   mobile_block_hide_bptablet-isolate_views_block__frontpage_sections_block_1_2: 0
   mobile_block_show_bptablet-isolate_views_block__frontpage_section_spotlight_block_2: 0
@@ -1484,8 +1484,8 @@ settings:
   mobile_block_hide_bptablet-isolate_spotlightandfeaturesfrontpage: 0
   mobile_block_show_bptablet-isolate_socialmedialinks_2: 0
   mobile_block_hide_bptablet-isolate_socialmedialinks_2: 0
-  mobile_block_show_bptablet-isolate_carapaceslideshow1carousel: 0
-  mobile_block_hide_bptablet-isolate_carapaceslideshow1carousel: 0
+  mobile_block_show_bptablet-isolate_asulibslideshow1carousel: 0
+  mobile_block_hide_bptablet-isolate_asulibslideshow1carousel: 0
   mobile_block_show_bptablet-isolate_views_block__content_recent_block_1: 0
   mobile_block_hide_bptablet-isolate_views_block__content_recent_block_1: 0
   mobile_block_show_bptablet-isolate_displayexamplenodeinablock: 0
@@ -1498,34 +1498,34 @@ settings:
   mobile_block_hide_bptablet-isolate_footerquote: 0
   mobile_block_show_bptablet-isolate_searchform: 0
   mobile_block_hide_bptablet-isolate_searchform: 1
-  mobile_block_show_bpmobile_carapace_local_actions: 0
-  mobile_block_hide_bpmobile_carapace_local_actions: 0
-  mobile_block_show_bpmobile_carapace_local_tasks: 0
-  mobile_block_hide_bpmobile_carapace_local_tasks: 0
-  mobile_block_show_bpmobile_carapace_help: 0
-  mobile_block_hide_bpmobile_carapace_help: 0
-  mobile_block_show_bpmobile_carapace_search: 0
-  mobile_block_hide_bpmobile_carapace_search: 1
-  mobile_block_show_bpmobile_carapace_branding: 0
-  mobile_block_hide_bpmobile_carapace_branding: 0
-  mobile_block_show_bpmobile_carapace_breadcrumbs: 0
-  mobile_block_hide_bpmobile_carapace_breadcrumbs: 0
-  mobile_block_show_bpmobile_carapace_content: 0
-  mobile_block_hide_bpmobile_carapace_content: 0
-  mobile_block_show_bpmobile_carapace_messages: 0
-  mobile_block_hide_bpmobile_carapace_messages: 0
-  mobile_block_show_bpmobile_carapace_page_title: 0
-  mobile_block_hide_bpmobile_carapace_page_title: 0
-  mobile_block_show_bpmobile_carapace_account_menu: 0
-  mobile_block_hide_bpmobile_carapace_account_menu: 0
-  mobile_block_show_bpmobile_carapace_footer: 0
-  mobile_block_hide_bpmobile_carapace_footer: 0
-  mobile_block_show_bpmobile_carapace_main_menu: 0
-  mobile_block_hide_bpmobile_carapace_main_menu: 0
+  mobile_block_show_bpmobile_asulib_local_actions: 0
+  mobile_block_hide_bpmobile_asulib_local_actions: 0
+  mobile_block_show_bpmobile_asulib_local_tasks: 0
+  mobile_block_hide_bpmobile_asulib_local_tasks: 0
+  mobile_block_show_bpmobile_asulib_help: 0
+  mobile_block_hide_bpmobile_asulib_help: 0
+  mobile_block_show_bpmobile_asulib_search: 0
+  mobile_block_hide_bpmobile_asulib_search: 1
+  mobile_block_show_bpmobile_asulib_branding: 0
+  mobile_block_hide_bpmobile_asulib_branding: 0
+  mobile_block_show_bpmobile_asulib_breadcrumbs: 0
+  mobile_block_hide_bpmobile_asulib_breadcrumbs: 0
+  mobile_block_show_bpmobile_asulib_content: 0
+  mobile_block_hide_bpmobile_asulib_content: 0
+  mobile_block_show_bpmobile_asulib_messages: 0
+  mobile_block_hide_bpmobile_asulib_messages: 0
+  mobile_block_show_bpmobile_asulib_page_title: 0
+  mobile_block_hide_bpmobile_asulib_page_title: 0
+  mobile_block_show_bpmobile_asulib_account_menu: 0
+  mobile_block_hide_bpmobile_asulib_account_menu: 0
+  mobile_block_show_bpmobile_asulib_footer: 0
+  mobile_block_hide_bpmobile_asulib_footer: 0
+  mobile_block_show_bpmobile_asulib_main_menu: 0
+  mobile_block_hide_bpmobile_asulib_main_menu: 0
   mobile_block_show_bpmobile_socialmedialinks: 0
   mobile_block_hide_bpmobile_socialmedialinks: 0
-  mobile_block_show_bpmobile_carapaceslideshow0: 0
-  mobile_block_hide_bpmobile_carapaceslideshow0: 0
+  mobile_block_show_bpmobile_asulibslideshow0: 0
+  mobile_block_hide_bpmobile_asulibslideshow0: 0
   mobile_block_show_bpmobile_views_block__frontpage_sections_block_1_2: 0
   mobile_block_hide_bpmobile_views_block__frontpage_sections_block_1_2: 0
   mobile_block_show_bpmobile_views_block__frontpage_section_spotlight_block_2: 0
@@ -1536,8 +1536,8 @@ settings:
   mobile_block_hide_bpmobile_spotlightandfeaturesfrontpage: 0
   mobile_block_show_bpmobile_socialmedialinks_2: 0
   mobile_block_hide_bpmobile_socialmedialinks_2: 0
-  mobile_block_show_bpmobile_carapaceslideshow1carousel: 0
-  mobile_block_hide_bpmobile_carapaceslideshow1carousel: 0
+  mobile_block_show_bpmobile_asulibslideshow1carousel: 0
+  mobile_block_hide_bpmobile_asulibslideshow1carousel: 0
   mobile_block_show_bpmobile_views_block__content_recent_block_1: 0
   mobile_block_hide_bpmobile_views_block__content_recent_block_1: 0
   mobile_block_show_bpmobile_displayexamplenodeinablock: 0
