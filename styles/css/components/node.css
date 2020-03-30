@@ -10,8 +10,7 @@
   border-radius: 0;
 }
 
-.node:before,
-.node:after {
+.node:before, .node:after {
   content: " ";
   display: table;
 }

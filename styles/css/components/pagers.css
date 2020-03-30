@@ -8,8 +8,7 @@
   text-align: center;
 }
 
-.pager ul,
-.pager ol {
+.pager ul, .pager ol {
   margin: 0;
   padding: 0;
 }
@@ -72,8 +71,7 @@
   border: 0;
 }
 
-.pager__link:focus,
-.pager__link:hover {
+.pager__link:focus, .pager__link:hover {
   text-decoration: none;
 }
 /*# sourceMappingURL=pagers.css.map */

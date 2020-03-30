@@ -117,8 +117,8 @@
   text-decoration: none;
   word-break: break-all;
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 .file a:before {
@@ -207,14 +207,3 @@
   margin: 0;
 }
 /*# sourceMappingURL=field.css.map */
-
-
-/**
-* Field Image as Link View Mode
-*/
-.taxonomy-term--view-mode-image-as-link img {
-  background: #00A3E0;
-  width: 116px;
-  height: 36px;
-  padding: 5px;
-}

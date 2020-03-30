@@ -8,8 +8,7 @@
   border-top: 1px solid;
 }
 
-.comment:before,
-.comment:after {
+.comment:before, .comment:after {
   content: " ";
   display: table;
 }
@@ -90,8 +89,7 @@
   clear: both;
 }
 
-.field-type-comment:before,
-.field-type-comment:after {
+.field-type-comment:before, .field-type-comment:after {
   content: " ";
   display: table;
 }
