@@ -20,3 +20,34 @@
  * https://www.drupal.org/project/twitter_block
  ============================================================================ */
 /*# sourceMappingURL=block.css.map */
+
+/**
+ * Custom block theming - for individual ids.
+ */
+#block-views-block-solr-search-content-block-1 .block__content {
+  background-color: #F7F7F7;
+  border: 2px solid #ddd;
+  padding: 0 10px 0 10px;
+}
+
+#block-views-block-solr-search-content-block-1 .views-col {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 4px;
+  box-shadow: -2px -2px 6px #ccc;
+  margin: 0 4px 0 4px;
+}
+
+#block-views-block-solr-search-content-block-1 .views-row {
+  margin: 8px 0 2px 0;
+}
+
+#block-views-block-solr-search-content-block-1 .block_content {
+  margin-bottom: 4px;
+}
+
+/* due to the padding and margins for the contained rows, the width percentage for
+ the views-view-grid.cols-3 views-col must be adjusted down */
+#block-views-block-solr-search-content-block-1 .views-view-grid.cols-3 .views-col {
+  flex-basis: 32.8% !important;
+}
