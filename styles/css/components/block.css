@@ -15,6 +15,10 @@
   margin: 0;
 }
 
+.block__content {
+  color: red;
+}
+
 /**
  * Styles for Twitter block module blocks:
  * https://www.drupal.org/project/twitter_block
