@@ -184,8 +184,10 @@ hr {
   background-color: #ffffff;
 }
 
-.pr-main__sidebar-first .block.has-title .block__title, .pr-main__sidebar-second .block.has-title .block__title {
-  background-color: #e0e0e0;
+.pr-main__sidebar-first .block.has-title .block__title,
+.pr-main__sidebar-second .block.has-title .block__title {
+  background-color: #353535;
+  color: #FEFEFE;
 }
 
 .pr-main__sidebar-first .block.has-title .block__content, .pr-main__sidebar-second .block.has-title .block__content {
