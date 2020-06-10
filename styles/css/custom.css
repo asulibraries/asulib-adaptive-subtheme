@@ -3,6 +3,4 @@
  * Use this file to override styles if you feel uncomfortable editing
  * component stylesheets.
  ============================================================================ */
-body {
-    background: orange;
-}
+.pattern-2 { background-image: none; }

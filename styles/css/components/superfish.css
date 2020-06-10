@@ -131,4 +131,33 @@ div.sf-accordion-toggle.sf-style-none > a:after {
   transform: translateY(-50%);
   speak: none;
 }
+
+/* menu container(s) */
+.pr-navbar__navbar,
+.l-navbar,
+.l-navbar .regions {
+  background-color: #353535;
+}
+.l-navbar .regions {
+  border: none;
+  box-shadow: none;
+  /*padding: 0 1.25em;*/
+}
+/* ul main-menu was header-menu in D7 site */
+
+/* Main menu */
+.main-menu li.sf-multicolumn-column:not(:first-child) {
+  border-left: 1px solid #afa593;
+}
+
+.main-menu li.sf-depth-1 a {
+  padding: 21px 25px;
+  font-weight: bold;
+}
+
+ul.sf-menu li:hover > ul,
+ul.sf-menu li.sfHover > ul {
+  top: 3.6em;
+}
+
 /*# sourceMappingURL=superfish.css.map */
