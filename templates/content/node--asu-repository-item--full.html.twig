@@ -110,9 +110,41 @@
       {%- endif -%}
     </header>
 
+    <!-- Top section block -->
+    <div id="top_section_box" class="js-form-item form-item js-form-type-item form-type-item js-form-item- form-item-">
+      {{ drupal_entity('block', 'itemtopsection', check_access=false) }}
+    </div>
+
     <div{{ content_attributes.addClass('node__content') }}>
       {{- content|without('comment') -}}
     </div>
+
+    <!-- Interact with this item section -->
+    <div id="interact_with_item_box" class="node__inner">
+      <h2 class="block__title">{{ 'Interact with this item'|t }}</h2>
+
+      <!-- Citations Rights and Reuse block -->
+      <div class="float_l_49">
+        <div id="citations_box" class="js-form-item form-item js-form-type-item form-type-item js-form-item- form-item-">
+          {{ drupal_entity('block', 'citationsrightsandreuse', check_access=false) }}
+        </div>
+      </div>
+
+      <!-- Print and share block -->
+      <div class="float_l_49">
+        <div id="print_and_share_box" class="js-form-item form-item js-form-type-item form-type-item js-form-item- form-item-">
+          {{ drupal_entity('block', 'ridiculouslyresponsivesocialsharebuttons', check_access=false) }}
+        </div>
+      </div>
+      <br class="clearfloat">
+
+      <!-- IIIF block -->
+      <div id="iiif_box" class="js-form-item form-item js-form-type-item form-type-item js-form-item- form-item-">
+        {{ drupal_entity('block', 'internationalimageinteroperabilityframework', check_access=false) }}
+      </div>
+    </div> <!-- end of class "block__inner" -->
+    <br class="clearfloat">
+
     <div class='feedback-buttons'>
       <a target="_blank" href="/form/feedback?source_entity_type=node&source_entity_id={{- node.id  -}}&item={{- node.id  -}}">Feedback</a>
     </div>
