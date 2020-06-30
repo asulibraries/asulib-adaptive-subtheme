@@ -51,3 +51,8 @@
 #block-views-block-solr-search-content-block-1 .views-view-grid.cols-3 .views-col {
   flex-basis: 32.8% !important;
 }
+
+/* Divider between node header and content */
+.title-block {
+  border-bottom: 1px solid;
+}

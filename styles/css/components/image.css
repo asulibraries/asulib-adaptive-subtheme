@@ -57,4 +57,37 @@ img[class*="align-"],
 [dir="rtl"] .image-preview {
   padding: 0 0 1rem 1rem;
 }
+
+
+span.expand-image {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  font-size: 1.25em;
+  color: #000;
+  border-left: 25px solid transparent;
+  border-right: 25px solid #bada55;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid #bada55;
+  width: 0;
+  height: 0;
+  display: block;
+  z-index: 200;
+}
+
+.expand-image i {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+span.expand-image {
+  bottom: 0;
+  font-size: 2em;
+  border-left: 35px solid transparent;
+  border-right: 35px solid #ffc627;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid #ffc627;
+}
+
 /*# sourceMappingURL=image.css.map */

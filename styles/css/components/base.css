@@ -86,6 +86,12 @@
   right: 0;
 }
 
+h1.node__title {
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
 .node__title a:before {
   display: none;
 }
@@ -858,3 +864,66 @@ ul.inline li ol {
   right: 0;
 }
 /*# sourceMappingURL=base.css.map */
+
+/* need to find where these belong */
+
+/* Inline #101 | http://localhost:8000/lol-cats/yay */
+
+.pr-main__sidebar-first h2 {
+  background-color: #353535;
+  color: #ededed;
+  letter-spacing: initial;
+}
+
+.pr-main__sidebar-first li {
+  list-style: none;
+  margin: ;
+}
+
+.pr-main__sidebar-first a {
+  border: none;
+  text-decoration: none;
+  padding: .5rem 0 .5rem 0;
+}
+
+.pr-main__sidebar-first .block {
+  border: 1px solid #e8e8e8;
+}
+
+.image-container, .info-container {
+  display: inline-block;
+}
+
+.info-container {
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.node--type-asu-repository-item h2 {
+  letter-spacing: initial;
+  background-color: #e8e8e8;
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.pr-main__sidebar-first h2 {
+  font-weight: bold;
+}
+
+
+.block.feedback-block {
+  border: none;
+}
+
+.feedback-block .block__content {
+  padding-left: none;
+}
+
+.feedback-buttons a {
+  background-color: #8c1d40;
+  color: #ededed;
+  padding: 1rem;
+  border-radius: 3px;
+}
+

@@ -92,6 +92,8 @@
     width: 50%;
 }
 
+  .pr-main__sidebar-first { width: auto; }
+
   .pr-main .hr--1-2 .l-r:first-child {
     width: 75%;
     -webkit-order: 2;

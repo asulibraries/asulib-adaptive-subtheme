@@ -187,6 +187,9 @@ hr {
   color: inherit;
 }
 
+/* Blocks */
+.title-block { border-color: #d7d7d7;}
+
 /**
  * AT attribution message
  *  - a toggle setting in the theme settings, you can turn it on/off using

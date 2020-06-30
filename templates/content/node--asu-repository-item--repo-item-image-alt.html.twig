@@ -78,6 +78,7 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
   ]
 -%}
+{% set uri = path('entity.node.canonical', {'node' : node.id}) %}
 <article{{ attributes.addClass(classes).setAttribute('role', 'article') }}>
   <div class="node__container">
     <header{{ header_attributes.addClass('node__header') }}>
@@ -88,13 +89,13 @@
       {%- endif -%}
 
       {{- title_prefix -}}
-      {#{%- if label -%}
-          {%- if (view_mode == 'full') or (view_mode == 'repo_item_image') -%}
+      {%- if label -%}
+          {%- if (view_mode == 'full') or (view_mode == 'repo_item_image_alt') -%}
               <h1{{ title_attributes.addClass('node__title') }}>{{- label -}}</h1>
           {%- else -%}
               <h2{{ title_attributes.addClass('node__title') }}><a href="{{ url }}" class="node__title-link" rel="bookmark">{{- label -}}</a></h2>
           {%- endif -%}
-      {%- endif -%}#}
+      {%- endif -%}
       {{- title_suffix -}}
     </header>
 
@@ -114,19 +115,26 @@
           <div>{{ content.field_resource_type }}</div>
           <div><a href="{{ node.id }}/metadata">{{ 'View full metadata'|t }}</a></div>
       </div>
-        <div id="interact" class="interact">
-            <h2>{{ 'Interact with this item'|t }}</h2>
-            <div class="citation">
-                Citation block here
-            </div>
-            <div class="social-icons">
-                Social block here
-            </div>
-            <div class="iiif">
-                <h3>{{ 'International Image Interoperability Framework' |t }}</h3>
-                block or content here
-            </div>
-        </div>
+      <div id="interact" class="interact">
+          <h2>{{ 'Interact with this item'|t }}</h2>
+          <div class="citation">
+              <h3>{{'Citations, rights and reuse' |t }}</h3>
+              <ul>
+                  <li><a href="{{ node.id }}/citation#citing">{{ 'Citing this item' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#responsibilities">{{ 'Responsibilities of use' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#licensing">{{ 'Licensing and Permissions' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#linking">{{ 'Linking and Embedding' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#copies">{{ 'Copies and Reproductions' |t }}</a></li>
+              </ul>
+          </div>
+          <div class="social-icons">
+              Social block here
+          </div>
+          <div class="iiif">
+              <h3>{{ 'International Image Interoperability Framework' |t }}</h3>
+              block or content here
+          </div>
+      </div>
       <div id="machine" class="machine">
           <h2>{{ 'Machine-readable links'|t }}</h2>
           <ul>
@@ -134,12 +142,42 @@
               <li><a href="">OAI</a></li>
               <li><a href="">Dublin Core</a></li>
           </ul>
-          {{ drupal_block('title-block') }}
       </div>
+
      {# {{- content|without('comment') -}} #}
     </div>
 
-    {{- content.comment -}}
+      {# {{- content.comment -}} #}
+
+{#      <div class="sidebar">
+          <div class="about">
+              <h3>{{ 'About this item' |t }}</h3>
+              <ul>
+                  <li class="active"><a href="{{ url }}">{{ 'Overview' |t }}</a></li>
+                  <li><a href="{{ node.id }}/permalink">{{ 'Permalink' |t }} <i class="fa fa-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+          <div class="explore">
+              <h3>{{ 'Explore now' |t }}</h3>
+              <ul>
+                  <li><a href="{{ node.id }}//openseadragon">{{ 'View image' |t }}</a></li>
+              </ul>
+          </div>
+          <div class="citation">
+              <h3>{{'Citations, rights and reuse' |t }}</h3>
+              <ul>
+                  <li><a href="{{ node.id }}/citation#citing">{{ 'Citing this item' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#responsibilities">{{ 'Responsibilities of use' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#licensing">{{ 'Licensing and Permissions' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#linking">{{ 'Linking and Embedding' |t }}</a></li>
+                  <li><a href="{{ node.id }}/citation#copies">{{ 'Copies and Reproductions' |t }}</a></li>
+              </ul>
+          </div>
+          <div class="social-icons">
+              Social block here
+          </div>
+          {{ drupal_block('block_content:d6153aca-b451-4e0d-a5b2-eec2f432e997') }}
+      </div>#}
 
   </div>
 </article>
@@ -152,3 +190,6 @@
 {{ kint(node.type|keys) }}
 {{ kint(content.display_media_entity_view_4) }}
 {{ content.display_media_entity_view_4['#view'].field. }}#}
+{{ kint(url) }}
+{{ kint(content.display_media_entity_view_2) }}
+{{ kint(content|keys) }}

@@ -166,7 +166,19 @@ function asulib_preprocess_comment(&$variables) {
 /**
  * Preprocess variables for block templates.
  */
-/* -- Delete this line if you want to use this function
+
+/* make node values available to blocks */
 function asulib_preprocess_block(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node instanceof \Drupal\node\NodeInterface) {
+    if ($node->getType() == 'asu_repository_item') {
+      // Get whatever from the node object
+      $variables["nid"] = $node->id();
+      $variables["url"] = $node->url();
+      $variables["field_model"] = $node->field_model->target_id;
+      $variables["node_title"] = $node->getTitle();
+      $variables["field_description"] = $node->field_description->value;
+    }
+  }
 }
- */
+
